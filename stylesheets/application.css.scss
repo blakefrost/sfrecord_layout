@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
 }
 
+a {
+  color: $link-color;
+}
+
 .sections-nav {
   span {
     &:after {
@@ -79,7 +83,8 @@ h1, h2, h3, h4, h5, h6,
 
 .sfrecord-logo {
   margin: 21px 0;
-  fill: #484c55;
+  /*fill: #484c55;*/
+  fill: $logo-fill;
 }
 
 .mini-mast {

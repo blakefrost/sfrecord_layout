@@ -9,13 +9,29 @@ $columns: 36;
 /*$body-bg-color: #fff;*/
 /*$line-color: #ebebeb;*/
 
+
+/* Colors (Color names apporximated by http://chir.ag/projects/name-that-color */
+$lima: #66e114;
+$kingfisher-daisy: #4F0576; /* http://chir.ag/projects/name-that-color/#4F0576 */
+$silver: #bbb;
+$iron: #d1d3d7;
+$lavendar: #c878ed;
+$bleached-cedar: #34253B;
+$portage: #a478ed;
+$light-wisteria: #c092d6;
+
 /* Newspaper Color Scheme */
-$body-bg-color: #eee;
-$line-color: #bbb;
-$k: #484c55;
+/*$body-bg-color: #484c55;*/
+$body-bg-color: $kingfisher-daisy;
+$line-color: $lavendar;
+$k: $light-wisteria;
+
+$link-color: $portage;
+/*$logo-fill: $lavendar;*/
+$logo-fill: $light-wisteria;
 
 
-/*$bg-color: #c3b9ab;*/
+/*$body-bg-color: #c3b9ab;*/
 /*$line-color: #3c3732;*/
 /*$k: #14100f;*/
 $selection-color: 'orange';
