@@ -3,17 +3,9 @@
   <div class="col span24">
     <div class="masthead">
       <%= render 'logo' -%>
-
-      <a class="home" href="http://sfrecord.com">www.sfrecord.com</a>
-
-      <div class="news-fit-to-sign">“All the News That's Fit to Sign”</div>
-      <div class="buy-or-subscribe">
-        <%= link_to "Buy or Subscribe", edition.store_link %>
-        <br><em>to support this paper</em></div>
-
       <div class="masthead-foot">
         <p class="volume pull-left"><%= edition.volume_label %></p>
-        <p class="price pull-right"><%= edition.fmt_price %></p>
+        <p class="price pull-right">FREE</p>
         <p class="publish-date"><%= edition.try(:publish_date).try(:strftime, "%A, %B %d, %Y") %></p>
       </div>
     </div>
